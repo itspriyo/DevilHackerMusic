@@ -3,5 +3,7 @@ tgcrypto
 py-tgcalls
 youtube_search
 pytube
-git+https://github.com/rakeshyt/PipeLine@master
-git+https://github.com/rakeshyt/PipeLine2@master
+yt_dlp
+yt-dlp
+youtube_dl
+youtube-dl
