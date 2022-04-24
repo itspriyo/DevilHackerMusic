@@ -50,18 +50,18 @@ from HackerPlugins.admin_check import *
 
 bot = Client(
     "Music Stream Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = os.environ["5323995137:AAHCiJXcHNJgKzB5cWGLBQLZFIOGNYam98Y"],
+    api_id = int(os.environ["14621169"]),
+    api_hash = os.environ["61e480d82ff09acbf967ccea4fa2884f"]
 )
 
-client = Client(os.environ["SESSION_NAME"], int(os.environ["API_ID"]), os.environ["API_HASH"])
+client = Client(os.environ["BQBYyPf85xxq079gAA6zPIFnvuIe7cc4EqXg-U0f49BHPxNO9NGRyzZD1pIP19HXF_jpiMCPRHa0VmxNSJ4uFe9K-dUiVr3QmBP805taV79MfSP7I7utB5supuLcxUSEz-4anu2NDIU9vbLA2ctwOVceXYU9NXJcOAPimZeXlDuZmyY03tmTR56PjcqNR3dA5wPM9TgaqptDde95xiO1UP360qt8xAbbR2YBFtWbn7P8Otqv0PoDCjOUUTrRReBRQckfZs-jNvgN_Uawtd-3GLEjnTTv-kcFAiqXaGr6Rd1aaJjlX7GX3hYjvi0Kdi9Y7KrotFYC_qpuohxRyWIFA7mwAAAAAS1N7eYA"], int(os.environ["14621169"]), os.environ["61e480d82ff09acbf967ccea4fa2884f"])
 
 app = PyTgCalls(client)
 
-OWNER_ID = int(os.environ["OWNER_ID"])
+OWNER_ID = int(os.environ["5265780945"])
 
-BOT_USERNAME = os.environ["BOT_USERNAME"]
+BOT_USERNAME = os.environ["TrishaMusicBot"]
 
 LIVE_CHATS = []
 
